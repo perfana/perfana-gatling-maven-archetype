@@ -22,8 +22,8 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -B \
 -Dversion=1.0-SNAPSHOT \
 -Dpackage=qa.perfana.example.application \
 -DsimulationClassName=ExampleApplication \
--Dapplication=ExampleApplication \
--DapplicationRelease=1.0
+-DperfanaApplication=ExampleApplication \
+-DperfanaApplicationRelease=1.0
 ```
 
-> simulationClassName should be in PascalCase (first character Capitalized)
+> simulationClassName should be in PascalCase (first character Capitalized) and no hyphens in the simulation class name
