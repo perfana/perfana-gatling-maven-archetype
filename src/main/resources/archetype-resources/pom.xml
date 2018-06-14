@@ -138,6 +138,7 @@
                     <constantLoadTimeInSeconds>${constantLoadTimeInSeconds}</constantLoadTimeInSeconds>
                     <assertResultsEnabled>${assertResultsEnabled}</assertResultsEnabled>
                     <perfanaEnabled>${perfanaEnabled}</perfanaEnabled>
+                    <annotations>${env.annotations}</annotations>
                     <jvmArgs>
                         <jvmArg>-Dscenario=${scenario}</jvmArg>
                         <jvmArg>-DtestRunId=${testRunId}</jvmArg>
