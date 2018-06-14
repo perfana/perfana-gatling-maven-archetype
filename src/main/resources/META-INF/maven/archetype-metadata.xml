@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="gatling-template"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <!--<fileSet encoding="UTF-8">-->
+      <!--<directory>src/main/resources</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.iml</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/test/resources</directory>
+      <includes>
+        <include>**/*.txt</include>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/test/resources</directory>
+      <includes>
+        <include>**/*.csv</include>
+        <include>**/*.json</include>
+        <include>**/*.conf</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8" filtered="true" packaged="true">
+      <directory>src/test/scala</directory>
+      <includes>
+        <include>**/*.scala</include>
+      </includes>
+    </fileSet>
+    <!--<fileSet filtered="true" encoding="UTF-8">-->
+      <!--<directory>.idea/libraries</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.xml</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <!--<fileSet filtered="true" encoding="UTF-8">-->
+      <!--<directory>.idea</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.xml</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <!--<fileSet filtered="true" encoding="UTF-8">-->
+      <!--<directory>.idea/scopes</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.xml</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <!--<fileSet filtered="true" encoding="UTF-8">-->
+      <!--<directory>.idea/copyright</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.xml</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <!--<fileSet encoding="UTF-8">-->
+      <!--<directory>src</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.bat</include>-->
+        <!--<include>**/*.sh</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <!--<fileSet encoding="UTF-8">-->
+      <!--<directory>.idea</directory>-->
+      <!--<includes>-->
+        <!--<include>**/*.name</include>-->
+      <!--</includes>-->
+    <!--</fileSet>-->
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>.gitignore</include>
+        <!--<include>gatling-template.iml</include>-->
+        <!--<include>gc.log</include>-->
+        <!--<include>hs_err_pid10004.log</include>-->
+        <!--<include>hs_err_pid10972.log</include>-->
+        <!--<include>hs_err_pid13648.log</include>-->
+        <!--<include>hs_err_pid1420.log</include>-->
+        <!--<include>hs_err_pid6068.log</include>-->
+        <!--<include>hs_err_pid7008.log</include>-->
+        <!--<include>hs_err_pid8028.log</include>-->
+        <!--<include>hs_err_pid8644.log</include>-->
+      </includes>
+    </fileSet>
+  </fileSets>
+  <requiredProperties>
+    <requiredProperty key="simulationClassName"/>
+    <requiredProperty key="application"/>
+    <requiredProperty key="applicationRelease" />
+  </requiredProperties>
+</archetype-descriptor>
