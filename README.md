@@ -10,7 +10,8 @@ To install the archetype, clone this repo and run:
 ## Generate template script
 To generate a template script run this command from a directory where you want to store the script:
 
-```mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -B \
+```
+mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -B \
 -DarchetypeGroupId=qa.perfana \
 -DarchetypeArtifactId=perfana-gatling-maven-archetype \
 -DarchetypeVersion=0.0.3 \
