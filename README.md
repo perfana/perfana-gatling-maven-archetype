@@ -21,4 +21,6 @@ To generate a template script run this command from a directory where you want t
 -DsimulationClassName=ExampleApplication \
 -DperfanaApplication=ExampleApplication \
 -DperfanaApplicationRelease=1.0
+```
+
 simulationClassName should be in PascalCase (first character Capitalized) and simulation class name is alphanumeric characters only and no special characters like hyphens and underscores.
