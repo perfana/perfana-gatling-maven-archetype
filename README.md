@@ -14,7 +14,7 @@ To generate a template script run this command from a directory where you want t
 mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -B \
 -DarchetypeGroupId=qa.perfana \
 -DarchetypeArtifactId=perfana-gatling-maven-archetype \
--DarchetypeVersion=0.0.3 \
+-DarchetypeVersion=0.0.7 \
 -DgroupId=qa.perfana \
 -DartifactId=gatling-example-application\
 -Dversion=1.0-SNAPSHOT \
