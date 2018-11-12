@@ -59,7 +59,7 @@ object Configuration {
   }
 
   private val baseHttpProtocol = http
-    .baseURL(Configuration.targetBaseUrl)
+    .baseUrl(Configuration.targetBaseUrl)
     .maxRedirects(2)
     .acceptHeader("""*/*""")
     .acceptEncodingHeader("""gzip,deflate,sdch""")
@@ -71,7 +71,7 @@ object Configuration {
 
 
   private val baseHttpDebugProtocol = http
-    .baseURL(Configuration.targetBaseUrl)
+    .baseUrl(Configuration.targetBaseUrl)
     .acceptHeader("""*/*""")
     .acceptEncodingHeader("""gzip,deflate,sdch""")
     .acceptLanguageHeader("""en-US,en;q=0.8,nl;q=0.6""")
