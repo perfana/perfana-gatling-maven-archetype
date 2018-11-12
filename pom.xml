@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.perfana.gatling</groupId>
-  <artifactId>gatling-perfana-archetype</artifactId>
+  <artifactId>perfana-gatling-archetype</artifactId>
   <version>0.0.7</version>
   <packaging>maven-archetype</packaging>
 
