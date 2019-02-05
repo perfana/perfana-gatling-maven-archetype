@@ -272,6 +272,7 @@
             <properties>
                 <debug>true</debug>
                 <graphitePrefix>gatling2.debug</graphitePrefix>
+                <perfanaEnabled>false</perfanaEnabled>
                 <scenario>debug</scenario>
             </properties>
         </profile>
